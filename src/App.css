@@ -648,6 +648,11 @@ nav ul li .menu2{
 .working-process .card:nth-child(2) h4{
     color: white;
 }
+@media (max-width:552px) {
+    .working-process .card:nth-child(2){
+        margin-top: 22px;
+    }
+}
 /* End working-process */
 /* Start booking */
 .booking{
@@ -706,7 +711,6 @@ nav ul li .menu2{
     color: white;
     border: none;
     padding: 15px;
-    font-size: 18px;
 }
 .booking .box{
     position: relative;
@@ -1211,7 +1215,11 @@ footer .brands li{
         display: none;
     }
     .landing-pages .container h1{
-        font-size: 50px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .landing-pages .button-pages h4{
+        font-size: 20px;
     }
 }
 /* end landing-pages */
@@ -1374,6 +1382,7 @@ footer .brands li{
     margin-right: 20px;
     color: #fff;
     background: var(--main-color);
+    margin-top: 10px;
 }
 @media (max-width:552px) {
     .error .number-error{
@@ -1387,6 +1396,7 @@ footer .brands li{
     height: 100vh;
 }
 .login form{
+    position: relative;
     text-align: center;
     background: #fff;
     width: 500px;
@@ -1439,6 +1449,16 @@ footer .brands li{
     color: #fff;
     background: var(--ornge-color);
 }
+@media (max-width:552px) {
+    .login form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 80vh;
+        width: 350px;
+    }
+}
 /* end login */
 /* Start Main-Booking */
 .main-booking .booking-card{
@@ -1487,6 +1507,11 @@ footer .brands li{
 .box-services button:hover{
     background: var(--main-color);
     color: white;
+}
+@media (max-width:552px) {
+    .main-booking .booking-card{
+        width: 350px;
+    }
 }
 /* end services-page */
 /* start service-details */
@@ -1675,6 +1700,11 @@ footer .brands li{
 .box-blog button:hover{
     color: white;
     background: var(--main-color);
+}
+@media (max-width:552px) {
+    .box-blog .date-doctor img{
+        width: 40px;
+    }
 }
 /* end blog */
 /* start blog-details */
@@ -1961,7 +1991,7 @@ footer .brands li{
     margin-top: 40px;
 }
 .blog-details .box-gallery img{
-    width: 30%;
+    width: 29%;
     height: 100px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -2001,6 +2031,12 @@ footer .brands li{
     .blog-details .box-comment p{
         font-size: 20px;
         line-height: 1.5;
+    }
+    .blog-details .photo-george img{
+        width: 60px;
+    }
+    .blog-details .text-george p{
+        font-size: 16px;
     }
 }
 @media (max-width:772px) {
@@ -2113,5 +2149,17 @@ footer .brands li{
     margin-bottom: 10px;
     font-size: 20px;
     color: #00000069;
+}
+@media (max-width:552px) {
+    .location .box-location p{
+        font-size: 14px;
+    }
+    .contact-form .brands li {
+        margin-left: 12px;
+        font-size: 30px;
+    }
+    .contact-form .information{
+        font-size: 12px;
+    }
 }
 /* end Location */
