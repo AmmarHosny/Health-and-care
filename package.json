@@ -1,7 +1,7 @@
 {
+  "homepage": "https://AmmarHosny.github.io/Health-and-care",
   "name": "gym",
   "version": "0.1.0",
-  "homepage": "https://AmmarHosny.github.io/Health-and-care",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
@@ -51,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
