@@ -34,9 +34,7 @@ export const AboutUs = () => {
                             <div className='box-one'>
                                 <ul>
                                     <li>
-                                        <div>
-                                        <FontAwesomeIcon icon={faTruckFieldUn}/>
-                                        </div>
+                                        <div><FontAwesomeIcon icon={faTruckFieldUn}/></div>
                                         <span>Emergency <br/> Help</span>
                                     </li>
                                     <li>

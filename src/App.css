@@ -439,9 +439,10 @@ nav ul li .menu2{
     line-height: 1.6;
     font-weight: 600;
 }
-.about-us .box ul{
+.about-us .box  ul{
     display: flex;
     justify-content: space-around;
+    flex-wrap: nowrap;
 }
 .about-us .box-one li ,.about-us .box-two li{
     border: 2px solid #b2f0fb;
@@ -479,11 +480,14 @@ nav ul li .menu2{
     margin-left: 15px;
 }
 .about-us span{
-    margin-left: 50px;
+    margin-left: 30px;
     font-size: 19px;
     font-weight: 600;
     margin-right: 12px;
     color: var(--main-color);
+}
+.about-us .box-two span{
+    margin-left: 50px;
 }
 @media (max-width:465px) {
     .about-us .box ul{
@@ -1370,6 +1374,11 @@ footer .brands li{
     margin-right: 20px;
     color: #fff;
     background: var(--main-color);
+}
+@media (max-width:552px) {
+    .error .number-error{
+        font-size: 120px;
+    }
 }
 /* end Error */
 /* Start login */
