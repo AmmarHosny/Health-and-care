@@ -23,6 +23,7 @@ const App = () => {
     <Fragment>
         <Routes>
           <Route path='/'  element={<Home/>}/>
+          <Route path='/Health-and-care'  element={<Home/>}/>
           <Route path='/about-us-page' element={<AboutUsPage/>}/>
           <Route path='/Our-Team' element={<OurTeamPage/>}/>
           <Route path='/FAQ' element={<FQA/>}/>
