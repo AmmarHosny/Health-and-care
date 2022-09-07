@@ -1045,6 +1045,7 @@ nav ul li .menu2{
     color: white;
     background: var(--main-color);
 }
+
 /* end  Latest News */
 /* start footer */
 footer{
@@ -1144,6 +1145,11 @@ footer .brands li{
 }
 .logo-side , .link-side{
     margin-bottom: 30px;
+}
+@media (max-width:552px) {
+    footer .link-side{
+        padding-left: 13px;
+    }
 }
 /* end footer */
 
