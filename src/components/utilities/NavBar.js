@@ -3,7 +3,7 @@ import logo from '../../images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPlus ,faMagnifyingGlass ,faAngleRight } from  "@fortawesome/free-solid-svg-icons"
 import MainMenu from '../HomePage/MainMenu'
-import DisplayWindow from '../HomePage/DispalyWindow'
+import DisplayWindow from './DispalyWindow'
 import {Link} from 'react-router-dom'
 
 

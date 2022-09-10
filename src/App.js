@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'swiper/css/bundle';
@@ -15,12 +15,15 @@ import BlogPage from './pages/BlogPage';
 import ContactUsPage from './pages/ContactUsPage';
 import ServiceDetailsPage from './pages/ServiceDetailsPage';
 import BlogDetailsPage from './pages/BlogDetailsPage';
+import ScrollButton from './components/utilities/ScrollButton';
+import ScrollTOTopPage from './components/utilities/ScrollTOTopPage';
 
 
 
 const App = () => {
   return (
     <Fragment>
+        <ScrollTOTopPage/>
         <Routes>
           <Route path='/'  element={<Home/>}/>
           <Route path='/Health-and-care'  element={<Home/>}/>
@@ -36,6 +39,7 @@ const App = () => {
           <Route path='/ServiceDetails' element={<ServiceDetailsPage/>}/> 
           <Route path='/BlogDetails' element={<BlogDetailsPage/>}/> 
         </Routes>
+        <ScrollButton/>
     </Fragment>
   )
 }
