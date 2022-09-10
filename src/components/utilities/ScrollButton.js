@@ -10,7 +10,7 @@ const ScrollButton = () => {
             if(window.scrollY> 700){
                 ScrollButton.current.style ="top:550px"
             }else{
-                ScrollButton.current.style ="top:0px"
+                ScrollButton.current.style ="top:-70px"
             }
         }
 
