@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Health-and-care/static/css/main.b6120a40.css",
-    "main.js": "/Health-and-care/static/js/main.eb5c4264.js",
+    "main.css": "/Health-and-care/static/css/main.d810234e.css",
+    "main.js": "/Health-and-care/static/js/main.a3a87fe9.js",
     "static/media/error.gif": "/Health-and-care/static/media/error.4b5472f14025469a16d7.gif",
     "static/media/photo1.png": "/Health-and-care/static/media/photo1.7c2bc96d67d3eba1d64a.png",
     "static/media/pic8.jpg": "/Health-and-care/static/media/pic8.a59ea2da7cc4c0bbd908.jpg",
@@ -31,11 +31,11 @@
     "static/media/slick.ttf": "/Health-and-care/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Health-and-care/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Health-and-care/index.html",
-    "main.b6120a40.css.map": "/Health-and-care/static/css/main.b6120a40.css.map",
-    "main.eb5c4264.js.map": "/Health-and-care/static/js/main.eb5c4264.js.map"
+    "main.d810234e.css.map": "/Health-and-care/static/css/main.d810234e.css.map",
+    "main.a3a87fe9.js.map": "/Health-and-care/static/js/main.a3a87fe9.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6120a40.css",
-    "static/js/main.eb5c4264.js"
+    "static/css/main.d810234e.css",
+    "static/js/main.a3a87fe9.js"
   ]
 }
