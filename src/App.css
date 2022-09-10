@@ -44,7 +44,7 @@ a{
 .scroll-button{
     right: 0;
     position: fixed;
-    top: 0px;
+    top: -70px;
     padding: 4px 13px;
     border-radius: 10px;
     color: #fff;
