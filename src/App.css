@@ -51,6 +51,7 @@ a{
     background: var(--main-color);
     font-size: 30px;
     cursor: pointer;
+    z-index: 10000;
 }
 /* end scrool-button */
 /* start navbar */
